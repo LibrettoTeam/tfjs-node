@@ -20,7 +20,7 @@
 
 #include <node_api.h>
 #include <map>
-#include "../deps/tensorflow/include/tensorflow/c/eager/c_api.h"
+#include "/usr/local/tensorflow/include/tensorflow/c/eager/c_api.h"
 
 namespace tfnodejs {
 

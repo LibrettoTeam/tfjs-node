@@ -19,7 +19,7 @@ else
   exit 1
 fi
 
-TARGET_DIRECTORY="/usr/local/"
+TARGET_DIRECTORY="/usr/local/tensorflow/"
 LIBTENSORFLOW="lib/libtensorflow.so"
 
 mkdir -p $TARGET_DIRECTORY
