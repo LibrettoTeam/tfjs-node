@@ -45,20 +45,7 @@
       ],
     ],
     'actions': [
-      {
-        'action_name': 'download_libtensorflow',
-        'inputs': [
-          '<(module_root_dir)/scripts/download-libtensorflow.sh',
-        ],
-        'outputs': [
-          '<(PRODUCT_DIR)/libtensorflow.so',
-        ],
-        'action': [
-          'sh',
-          '<@(_inputs)',
-          '<(tensorflow-library-target)',
-        ]
-      }
+     
     ],
   }]
 }
